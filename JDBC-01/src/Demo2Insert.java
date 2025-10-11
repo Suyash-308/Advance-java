@@ -14,7 +14,7 @@ public class Demo2Insert {
 
         Statement statement = connection.createStatement();
 
-        String query = "insert into movie(id ,title )values(3,'salar')";
+        String query = "insert into movie(id ,title )values(78,'bahubali')";
         statement.executeUpdate(query);
         connection.close();
         System.out.println("Successful");
