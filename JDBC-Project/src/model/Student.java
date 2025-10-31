@@ -1,0 +1,16 @@
+package model;
+
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@Getter
+@Setter
+public class Student {
+    private int id;
+    private String name;
+    private String email;
+    private String phone;
+    
+}
