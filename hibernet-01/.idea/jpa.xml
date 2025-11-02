@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="hibernet-01" name="hibernet-01" framework="JPA" ormUnit="hibernet-01:hibernet-01" defaultDataSourceId="b014ec72-da7d-4c2e-b02b-d366a1ab3d1c" />
+    </persistence-units>
+  </component>
+</project>
