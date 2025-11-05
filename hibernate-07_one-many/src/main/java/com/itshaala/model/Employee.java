@@ -19,10 +19,10 @@ public class Employee {
     @Column(name = "id")
      private int id;
 
-    @Column(name = "name")
+    @Column(name ="name")
     private String name;
 
-    @Column(name = "salary")
+    @Column(name ="salary")
     private int salary;
 
     @OneToMany(mappedBy = "employee",cascade = CascadeType.ALL,orphanRemoval = true)

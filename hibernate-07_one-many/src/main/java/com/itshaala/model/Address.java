@@ -30,6 +30,6 @@ public class Address {
 
     @ManyToOne
     @JoinColumn(name = "employee_id")
-    Employee employee=new Employee();
+    Employee employee;
 
 }

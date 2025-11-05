@@ -36,9 +36,8 @@ public class App
 
         address1.setEmployee(employee);
         address2.setEmployee(employee);
-        session.persist(address1);
-        session.persist(address2);
         session.persist(employee);
+
 
         transaction.commit();
         session.close();
